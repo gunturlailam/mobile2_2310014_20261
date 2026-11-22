@@ -132,6 +132,15 @@ export const authStyles = StyleSheet.create({
       fontSize: 15,
       fontWeight: "700",
    },
+   primaryButtonDisabled: {
+      opacity: 0.65,
+   },
+   loadingContainer: {
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center",
+      backgroundColor: "#F8FAFC",
+   },
    dividerRow: {
       flexDirection: "row",
       alignItems: "center",
